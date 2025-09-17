@@ -27,6 +27,7 @@ void main(){
 
   print('Enter the day : ');
   int day = int.parse(stdin.readLineSync()!);
+  
   switch(day){
     case 1:
     print("Saturday");
