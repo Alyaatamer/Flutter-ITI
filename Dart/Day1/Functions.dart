@@ -1,5 +1,3 @@
-import 'dart:io';
-
 // 1. Create a function addNumbers that takes 2 numbers and prints their sum.
 int addNumbers(int x ,int y){
   return x+y;
@@ -16,7 +14,7 @@ void greet({String? name , String? city}){
     if(name == null){
       print('Hello Guest');
     }
-    else if(name != null && city == null){
+    else if(city == null){
       print('Hello $name');
     }
     else {

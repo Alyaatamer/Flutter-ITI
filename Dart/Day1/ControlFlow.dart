@@ -25,6 +25,7 @@ void main(){
   print('============================');
 //3. Create a program that takes a number (1 to 7) and prints the weekday name using switch case
 
+  print('Enter the day : ');
   int day = int.parse(stdin.readLineSync()!);
   switch(day){
     case 1:

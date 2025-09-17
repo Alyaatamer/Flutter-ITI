@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main(){
 //   1. Given list = [10, 20, 30, 40]:
     // - Use for-in loop to print elements.
