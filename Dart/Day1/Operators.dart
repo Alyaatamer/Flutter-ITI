@@ -1,9 +1,13 @@
+import 'dart:io';
 import 'dart:math';
 
 void main(){
 
 //1. Create a Dart program that takes two numbers (num1 and num2)
-    int num1 = 1, num2 = 3;
+    print("Enter the First Number : ");
+    int num1 = int.parse(stdin.readLineSync()!);
+    print("Enter the Second Number : ");
+    int num2 = int.parse(stdin.readLineSync()!);
 
     //- Print their sum, product, and difference.
     int sum = num1 + num2 ;
@@ -11,6 +15,7 @@ void main(){
     int difference = max(num1,num2) - min(num1,num2);
     print('sum : $sum\nproduct : $product\ndifference : $difference');
     print('============================');
+
     //- Use relational operators (>, <, ==) to print which one is greater.
     if(num1>num2){
       print('num1 > num2');
@@ -22,6 +27,7 @@ void main(){
       print('num1 == num2');
     }
     print('============================');
+    
 //2. Use logical operators (&&, ||, !) to check:
     // - Print 'Both are positive' if both are positive.
     if(num1 > 0 && num2 > 0){

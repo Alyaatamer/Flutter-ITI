@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(){
 //   1. Given list = [10, 20, 30, 40]:
     // - Use for-in loop to print elements.
@@ -20,16 +22,20 @@ void main(){
     print(newlist);
 
     print('============================');
-//     2. Create a Map:
-    //    var student = { 'name': 'Ali', 'age': 22, 'grade': 'A' };
+
+//2. Create a Map:
+    //var student = { 'name': 'Ali', 'age': 22, 'grade': 'A' };
     var student = { 'name': 'Ali', 'age': 22, 'grade': 'A' };
+
     // - Print all values using forEach.
     student.forEach((key,value){
       print('Key : $key , Value : $value');
     });
     print('============================');
+
     // - Add a new key 'city: Cairo'.
     student['city']='Cairo';
+    
     // - Update grade to 'B'.
     student['grade']='B';
 

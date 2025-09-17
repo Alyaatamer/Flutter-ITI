@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(){
 // 1. Create a program that reads a grade (0 to 100) and prints:
     // - 'A' if between 90 and 100
@@ -5,7 +7,8 @@ void main(){
     // - 'C' if between 70 and 79
     // - 'F' if less than 70
 
-  int marks = 70;
+  print("Enter the Total Marks : ");
+  int marks = int.parse(stdin.readLineSync()!);
 
   if (marks >= 90 && marks <= 100) print('A');
   else if (marks >= 80 && marks <= 89) print("B");
@@ -22,7 +25,7 @@ void main(){
   print('============================');
 //3. Create a program that takes a number (1 to 7) and prints the weekday name using switch case
 
-  int day = 3;
+  int day = int.parse(stdin.readLineSync()!);
   switch(day){
     case 1:
     print("Saturday");
