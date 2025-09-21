@@ -17,16 +17,16 @@ mixin Printer {
 }
 
 class Report with Logger, Printer {
-
   void generateReport() {
-    log("Start Report");
-    printData("Report Content");
-    log("End Report");
+    log("start");
+    printData("content");
+    log("end");
   }
-  
 }
 
 void main() {
-  var report = Report();
-  report.generateReport();
+  Report r = Report();
+  r.log("request");
+  r.printData("data");
+  r.generateReport();
 }
