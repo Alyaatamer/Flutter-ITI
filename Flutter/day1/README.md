@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Screenshot
 
-![App Screenshot](Screens/Day1.png)
+![App Screenshot](./screens/Day1.png)
 
 ## Getting Started
 
