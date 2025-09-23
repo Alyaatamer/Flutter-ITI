@@ -4,8 +4,7 @@ A new Flutter project.
 
 ## Screenshot
 
-![App Screenshot]([./screens/Day1.png](https://github.com/Alyaatamer/Flutter-ITI/blob/main/Flutter/day1/README.md))
-
+![App Screenshot](screens/Day1.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
