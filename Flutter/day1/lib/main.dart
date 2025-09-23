@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget{
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            SizedBox(height: 20),
+            SizedBox(height: 30),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -131,7 +131,7 @@ class MyApp extends StatelessWidget{
                  Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "UpComing bills",
+                    " UpComing bills",
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold
@@ -140,25 +140,65 @@ class MyApp extends StatelessWidget{
                 ),
                 SizedBox(height: 10),
                 ListTile(
-                  leading: Icon(Icons.electric_bolt) ,
-                  title: Text("Electricity"),
+                  leading: Icon(
+                    Icons.electric_bolt,
+                    color: Colors.amber,
+                    size: 20 ,
+                  ) ,
+                  title: Text(
+                    "Electricity",
+                     style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                   subtitle: Text("Due Sep 28"),
                   trailing: Text("\$121"),
                 ),
                 ListTile(
-                  leading: Icon(Icons.wifi) ,
-                  title: Text("Internet"),
+                  leading: Icon(
+                    Icons.wifi,
+                    color: Colors.blue,
+                    size: 20 ,
+                  ) ,
+                  title: Text(
+                    "Internet" ,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                   subtitle: Text("Due Sep 28"),
                   trailing: Text("\$80"),
                 ),
                 ListTile(
-                  leading: Icon(Icons.home) ,
-                  title: Text("Rent"),
+                  leading: Icon(
+                    Icons.home,
+                    color: Colors.red,
+                    size: 20 ,
+                  ) ,
+                  title: Text(
+                    "Rent",
+                     style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                   subtitle: Text("Due Sep 28"),
                   trailing: Text("\$100"),
                 ),
               ],
             ),
+            SizedBox(height: 10),
+            Align(
+                alignment: Alignment.center,
+                child: Text(
+                  "Tip : Long-Press a bill to mark paid.",
+                  style: TextStyle(
+                    fontSize: 15,
+                  ),
+                ),
+              ),
           ],
         ),
 
@@ -174,12 +214,17 @@ class MyApp extends StatelessWidget{
                 size: 30,
               ),
               Icon(
-                Icons.settings,
+                Icons.card_travel,
                 color: Colors.white,
                 size: 30,
               ),
               Icon(
-                Icons.search,
+                Icons.category,
+                color: Colors.white,
+                size: 30,
+              ),
+              Icon(
+                Icons.settings,
                 color: Colors.white,
                 size: 30,
               ),
