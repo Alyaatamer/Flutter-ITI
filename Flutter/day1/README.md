@@ -3,8 +3,6 @@
 A new Flutter project.
 
 ## Screenshot
-
-## Screenshot
 <img src="screens/Day1.png" title="App Screenshot" width="300">
 
 ## Getting Started
