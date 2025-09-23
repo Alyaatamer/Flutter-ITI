@@ -4,7 +4,9 @@ A new Flutter project.
 
 ## Screenshot
 
-![App Screenshot](screens/Day1.png)
+## Screenshot
+<img src="screens/Day1.png" title="App Screenshot" width="300">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
