@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Screenshot
-<img src="screens/Day1.png" title="App Screenshot" width="300">
+<img src="Flutter/Screens/Day1.png" title="App Screenshot" width="300">
 
 ## Getting Started
 
