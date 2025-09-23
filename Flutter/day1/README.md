@@ -1,6 +1,10 @@
-# day1
+# Day1
 
 A new Flutter project.
+
+## Screenshot
+
+![App Screenshot](screens/Day1.png)
 
 ## Getting Started
 
