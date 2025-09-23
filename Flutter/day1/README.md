@@ -3,8 +3,8 @@
 A new Flutter project.
 
 ## Screenshot
+<img src="Flutter/Screens/Day1.png" title="App Screenshot" width="300">
 
-![App Screenshot](screens/Day1.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
