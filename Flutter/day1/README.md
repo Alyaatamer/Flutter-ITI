@@ -1,9 +1,10 @@
-# Day1
+# Day1 & Day2
 
-A new Flutter project.
+Flutter projects for practicing and learning basics.
 
-## Screenshot
-<img src="lib/Screen/Day1.png" title="App Screenshot" width="300">
+## Demo Video
+
+https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ## Getting Started
 

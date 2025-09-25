@@ -1,16 +1,26 @@
+import 'package:day1/SecondScreen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
     runApp(MyApp());
 }
 
-
-class MyApp extends StatelessWidget{
-    @override
+class MyApp extends StatelessWidget {
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
+      debugShowCheckedModeBanner: false,
+      home: FirstScreen(),
+    );
+  }
+}
+
+
+class FirstScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
           title: Text(
             "Budget",
              style: TextStyle(
@@ -199,6 +209,33 @@ class MyApp extends StatelessWidget{
                   ),
                 ),
               ),
+              Column(
+                  children: [
+                    SizedBox(height: 200),
+                    ElevatedButton(
+                      onPressed: (){
+                          Navigator.push(
+                            context, 
+                            MaterialPageRoute(builder: (context) => Secondscreen()),
+                          );
+                      }, 
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      foregroundColor: Color(0xFF9133FF),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                    child: Text(
+                      "Go To MyProfile",
+                      style: TextStyle(
+                        color: Color(0xFF9133FF),
+                        fontSize: 20,
+                      ),
+                    ),
+                  ),
+                ],
+            ),
           ],
         ),
 
@@ -231,7 +268,6 @@ class MyApp extends StatelessWidget{
             ],
           ),
         ),
-      ),
     );
   }
 }
