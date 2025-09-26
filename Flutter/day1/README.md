@@ -4,8 +4,7 @@ Flutter projects for practicing and learning basics.
 
 ## Demo Video
 
-<video src="lib/Screen/Output.mp4" width="640" height="480" controls>
-</video>
+https://github.com/user-attachments/assets/43ce0adc-a882-4b49-8570-65fe725659c6
 
 ## Getting Started
 
