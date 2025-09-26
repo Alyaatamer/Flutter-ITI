@@ -1,6 +1,6 @@
 # Day3
 
-Flutter project for practicing StatefulWidget with a simple Login screen.
+Flutter project with a simple Login screen.
 
 ## Demo Video
 
