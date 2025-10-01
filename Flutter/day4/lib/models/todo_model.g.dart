@@ -19,9 +19,9 @@ class TodoModelAdapter extends TypeAdapter<TodoModel> {
     return TodoModel(
       title: fields[0] as String,
       description: fields[1] as String,
-      CreateAt: fields[2] as String,
-      Color: fields[3] as int,
-      iscompleted: fields[4] as bool,
+      createdAt: fields[2] as String,
+      color: fields[3] as int,
+      isCompleted: fields[4] as bool,
     );
   }
 
@@ -34,11 +34,11 @@ class TodoModelAdapter extends TypeAdapter<TodoModel> {
       ..writeByte(1)
       ..write(obj.description)
       ..writeByte(2)
-      ..write(obj.CreateAt)
+      ..write(obj.createdAt)
       ..writeByte(3)
-      ..write(obj.Color)
+      ..write(obj.color)
       ..writeByte(4)
-      ..write(obj.iscompleted);
+      ..write(obj.isCompleted);
   }
 
   @override
